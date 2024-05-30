@@ -1,0 +1,156 @@
+{
+    "items": [
+        {
+            "name": "Ultimate Carrot Candy Upgrade",
+            "value": 8000
+        },
+        {
+            "name": "Kat Flower",
+            "value": 500
+        },
+        {
+            "name": "Sea Creature Chance Enrichment",
+            "value": 5000
+        },
+        {
+            "name": "Accessory Enrichment Swapper",
+            "value": 200
+        },
+        {
+            "name": "Abiphone Contacts Trio",
+            "value": 6450
+        },
+        {
+            "name": "Speed Enrichment",
+            "value": 5000
+        },
+        {
+            "name": "Intelligence Enrichment",
+            "value": 5000
+        },
+        {
+            "name": "Critical Damage Enrichment",
+            "value": 5000
+        },
+        {
+            "name": "Critical Chance Enrichment",
+            "value": 5000
+        },
+        {
+            "name": "Strenght Enrichment",
+            "value": 5000
+        },
+        {
+            "name": "Defense Enrichment",
+            "value": 5000
+        },
+        {
+            "name": "Health Enrichment",
+            "value": 5000
+        },
+        {
+            "name": "Magic Find Enrichment",
+            "value": 5000
+        },
+        {
+            "name": "Ferocit Enrichment",
+            "value": 5000
+        },
+        {
+            "name": "Attack Speed Enrichment",
+            "value": 5000
+        },
+        {
+            "name": "Minion Storage X-pender",
+            "value": 1500
+        },
+        {
+            "name": "Pure White Dye",
+            "value": 250000
+        },
+        {
+            "name": "Pure Black Dye",
+            "value": 250000
+        },
+        {
+            "name": "Colossal Experience Bottle Upgrade",
+            "value": 1200
+        },
+        {
+            "name": "Jumbo Backpack Upgrade",
+            "value": 4000
+        },
+        {
+            "name": "Autopet Rules 2-pack",
+            "value": 21000
+        },
+        {
+            "name": "Pocket Sack-in-a-Sack",
+            "value": 8000
+        },
+        {
+            "name": "Matriach's Perfume",
+            "value": 1200
+        },
+        {
+            "name": "Portalizer",
+            "value": 4800
+        },
+        {
+            "name": "Bits talisman",
+            "value": 15000
+        },
+        {
+            "name": "Heat Core",
+            "value": 3000
+        },
+        {
+            "name": "Hyper Catalyst Upgrade",
+            "value": 300
+        },
+        {
+            "name": "Hologram",
+            "value": 2000
+        },
+        {
+            "name": "God Potion",
+            "value": 1500
+        },
+        {
+            "name": "Builder's Wand",
+            "value": 12000
+        },
+        {
+            "name": "Block Zapper",
+            "value": 5000
+        },
+        {
+            "name": "KISMET_FEATHER",
+            "value": 1350
+        },
+        {
+            "name": "ENCHANTMENT_CULTIVATING_1",
+            "value": 4000
+        },
+        {
+            "name": "ENCHANTMENT_CHAMPION_1",
+            "value": 4000
+        },
+        {
+            "name": "ENCHANTMENT_COMPACT_1",
+            "value": 4000
+        },
+        {
+            "name": "ENCHANTMENT_HECATOMB_1",
+            "value": 6000
+        },
+        {
+            "name": "ENCHANTMENT_EXPERTISE_1",
+            "value": 4000
+        },
+        {
+            "name": "INFERNO_FUEL_BLOCK",
+            "value": 75
+        }
+    ]
+}
