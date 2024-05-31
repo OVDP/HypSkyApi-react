@@ -1,26 +1,39 @@
 import { useEffect, useState } from "react";
+
 const url = "https://api.hypixel.net/skyblock/auctions";
 
 export default function Api() {
-  const [aap, zetAap] = useState([]);
+  const [auctions, setAuctions] = useState<any[]>([]);
 
   useEffect(() => {
     const fetchData = async () => {
-      const response = await fetch(url);
-      response.json().then(json => {
-        for (let i = 0; i < json.totalPages; i++) {
-          for (let j = 0; j < json.auctions.length; j++) {
-            zetAap(prevApiResponse => [...prevApiResponse, json]);
-          }
+      try {
+        const response = await fetch(url);
+        const data = await response.json();
+        const totalPages: number = data.totalPages;
+        let allAuctions: any[] = [];
+        for (let i = 0; i < totalPages; i++) {
+          const pageResponse = await fetch(`${url}?page=${i}`);
+          const pageData = await pageResponse.json();
+          const filteredAuctions = pageData.auctions.map((auction: any) => {
+            return {
+              item_name: auction.item_name,
+              starting_bid: auction.starting_bid,
+              bin: auction.bin
+            };
+          });
+          allAuctions = [...allAuctions, ...filteredAuctions];
         }
-      });
-    }
+        setAuctions(allAuctions);
+      } catch (error) {
+        console.error("Error fetching data:", error);
+      }
+    };
     fetchData();
-  }, [aap]);
-  console.log(aap);
+  }, []);
   return (
     <div>
-      <div>API Response: {JSON.stringify(aap)}</div>
+      <div>API Response: {JSON.stringify(auctions[0])}</div>
     </div>
-  )
+  );
 }
