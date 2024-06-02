@@ -7,9 +7,6 @@ import Recipe from './pages/recipe'
 import Minion from './pages/minion'
 import Auction from './pages/auction'
 import Bazaar from './pages/bazaar'
-
-
-
 import { BrowserRouter, Routes, Route} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css'
 
@@ -26,6 +23,12 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
             <Route path='/auction' element={<Auction/>}/>
             <Route path='/bazaar' element={<Bazaar/>}/>
           </Routes>
+          <div>
+            session: {sessionStorage.getItem('auctions')}
+          </div>
+          <div>
+            session time: {sessionStorage.getItem('sessionTime')}
+          </div>
         </main>
       </BrowserRouter>
   </React.StrictMode>,
