@@ -20,6 +20,6 @@ export default function Api() {
     }, []);
       
   return (
-    <div>{JSON.stringify(bazaar)}</div>
+    bazaar
   )
 }

@@ -1,6 +1,8 @@
-import Ah from '../services/api/api';
+import ah from '../services/api/api'
 
 export default function bits() {
+
+  const getAh = JSON.stringify(ah());
 
   return (
     <>
@@ -9,7 +11,7 @@ export default function bits() {
           WIP
         </h1>
       </div>
-      <Ah/>
+      {getAh}
     </>
     
   )

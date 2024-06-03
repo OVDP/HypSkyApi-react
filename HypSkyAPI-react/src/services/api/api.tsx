@@ -39,8 +39,6 @@ export default function Api() {
       fetchData();
     }, []);
   return (
-    <div>
-      <div>API Response: {JSON.stringify(auctions[0])}</div>
-    </div>
+    auctions
   );
 }
