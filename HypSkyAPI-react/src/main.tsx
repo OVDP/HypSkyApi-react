@@ -23,12 +23,6 @@ ReactDOM.createRoot(document.getElementById('root')!).render(
             <Route path='/auction' element={<Auction/>}/>
             <Route path='/bazaar' element={<Bazaar/>}/>
           </Routes>
-          <div>
-            session: {sessionStorage.getItem('auctions')}
-          </div>
-          <div>
-            session time: {sessionStorage.getItem('sessionTime')}
-          </div>
         </main>
       </BrowserRouter>
   </React.StrictMode>,
